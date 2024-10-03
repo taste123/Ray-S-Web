@@ -1,0 +1,128 @@
+nav {
+    background-color: brown;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .nav-item a {
+    color: bisque;
+  }
+  #spidey {
+    background: image-set(url(bg.png));
+  }
+  #movie {
+    background: image-set(url(bg.png));
+  }
+
+  #spidey img{
+    border-radius: 100%;
+    padding: 40px;
+  }
+
+  #villain {
+    background-color: rgb(108, 43, 43);
+  }
+
+  #review {
+    background-color: rgb(108, 43, 43);
+  }
+
+  #hero {
+    background-color: rgb(108, 43, 43);
+  }
+
+  #hero h1,
+  h3 {
+    color: rgb(189, 154, 110);
+  }
+  #movie p,a{
+    color: rgb(189, 154, 110);
+    text-decoration: none;
+  }
+
+  h1 {
+    color: rgb(189, 154, 110);
+  }
+
+  #carouselExample img {
+    border-radius: 20px;
+  }
+
+  #carouselExample img {
+    transition: transform 0.25s;
+  }
+
+  #carouselExample img:hover {
+    transform: scale(1.1);
+  }
+
+  .card {
+    border-radius: 20px;
+    transition: transform 0.25s;
+    height: 700px;
+  }
+
+  .card img {
+    border-radius: 20px;
+    padding: 5px;
+  }
+
+  .card:hover {
+    transform: scale(1.04);
+  }
+
+  .submitBtn {
+    text-decoration: none;
+  }
+
+  footer {
+  display: flex;
+  background-color: brown;
+  justify-content: space-between;
+  }
+
+  .footer-left{
+      justify-content: center;
+      padding: 75px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      display: flex;
+  }
+
+
+  .logo img {
+      width: 75px;
+  }
+
+  .logo{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .name{
+      font-size: 20px;
+      padding: 35px;
+      padding-left: 15px;
+  }
+
+  .footer-right p{
+      font-size: 15px;
+      margin: 3px;
+  }
+
+  .footer-right ul{
+      padding-top: 7px;
+      padding-bottom: 7px;
+  }
+
+  .footer-right{
+      padding-right: 75px;
+  }
+
+@media(max-width: 750px) {
+  #villain-grid {
+   flex-direction: column;
+  }
+}
