@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    background: image-set(url(./img/bg.png));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    background-color: #0f3a15;
+}
+
+#displayText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: bisque;
+    text-align: center;
+}
+
+.divCard {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+    background-color: rgba(10, 56, 10, 0.697);
+    width: 75%;
+    border-radius: 25px;
+}
+
+#bidSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bid {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+#startGame {
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #22712c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#buttonPlay {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 0px;
+}
+
+.cards {
+    padding-top: 20px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hit {
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #4d1212;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#stay {
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #0f3a15;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonGame {
+    padding: 10px;
+}
+
+.bid {
+    padding: 3px;
+}
+
+#bidInput {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    width: 120px;
+    margin-bottom: 15px;
+  }

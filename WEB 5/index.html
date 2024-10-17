@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- displaytext -->
+    <div id="displayText">
+      <h2>start the game</h2>
+    </div>
+
+    <!-- card -->
+    <div class="divCard">
+      <div class="card">
+        <div class="cards">
+          <div id="scorePlayerText" class="cardText">
+            <h2>your card</h2>
+          </div>
+          <div id="cardPlayer">
+            <img class="playerCard" src="./img/card_back.png" width="150px" />
+            <img class="playerCard" src="./img/card_back.png" width="150px" />
+          </div>
+        </div>
+        <div class="cards">
+          <div id="scoreComText" class="cardText">
+            <h2>com card</h2>
+          </div>
+          <div id="cardCom">
+            <img id="comCard" src="./img/card_back.png" width="150px" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- button🫂 -->
+    <div id="bidSection">
+      <div id="money">
+        <p>your remaining balance :</p>
+        <h4 id="amount">$5000</h4>
+        <div id="afterBid"></div>
+      </div>
+      <div class="bid">
+        <form id="bidForm">
+          <label id="bidText" for="bidInput">bid:</label>
+          <input
+            type="number"
+            id="bidInput"
+            name="bidInput"
+            min="100"
+            step="100"
+            placeholder="Enter your bid"
+            required
+          />
+        </form>
+      </div>
+    </div>
+    <div id="buttonPlay">
+      <button id="startGame">Start Game</button>
+    </div>
+    <script src="script.js "></script>
+  </body>
+</html>
