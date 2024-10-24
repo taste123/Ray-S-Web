@@ -1,0 +1,63 @@
+/* General body styling */
+body {
+    background-color: #EEEDEB;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3C3633;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh; /* Centers the content vertically */
+}
+
+/* Header styling */
+.headerText {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    /* border: 3px solid black; */
+    margin-bottom: 20px;
+    font-size: 36px;
+    padding-bottom: 0px;
+}
+
+/* Form container styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #747264;
+    width: 30%;
+    min-width: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px #E0CCBE;
+}
+
+/* Form input styling */
+.formGroup {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.formGroup input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #E0CCBE;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
